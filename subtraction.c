@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-int main()
+int subtraction()
 {
     int num1,num2;
     printf("Enter the first number: ");
@@ -9,6 +9,6 @@ int main()
     scanf("%d",&num2);
     int sub=num2-num1;
     printf("Differences of two numbers are: %d\n",sub);
-    getch();
+    //getch();
     return 0;
 }
